@@ -20,7 +20,7 @@ const Footer = (props) => {
     <footer className="site_footer footer_layout_1">
       <div
         className="content_box"
-        style={{ backgroundImage: `url(${"/images/shapes/bg_pattern_3.svg"})` }}
+        style={{ backgroundImage: `url(${'/images/shapes/bg_pattern_3.svg'})` }}
       >
         <div className="container">
           <div className="diract_contact_links text-white">
@@ -30,7 +30,7 @@ const Footer = (props) => {
               </div>
               <div className="iconbox_content">
                 <h3 className="iconbox_title">Write to us</h3>
-                <p className="mb-0">dummy.email@gmail.com</p>
+                <p className="mb-0">info@compumaxllc.com</p>
               </div>
             </div>
             <div className="iconbox_block layout_icon_left">
@@ -39,7 +39,14 @@ const Footer = (props) => {
               </div>
               <div className="iconbox_content">
                 <h3 className="iconbox_title"> Call Us (USA)</h3>
-                <p className="mb-0">+(1) 1230 452 8597</p>
+                <p className="mb-0">
+                  <a
+                    href="+12012981974"
+                    style={{ color: 'white'  }}
+                  >
+                    201 -298-1974
+                  </a>
+                </p>
               </div>
             </div>
             <div className="iconbox_block layout_icon_left">
@@ -48,7 +55,7 @@ const Footer = (props) => {
               </div>
               <div className="iconbox_content">
                 <h3 className="iconbox_title">Our Office</h3>
-                <p className="mb-0">Waterloo, Park, Australia</p>
+                <p className="mb-0">341 ALL ANGELS NY, 12590-4714</p>
               </div>
             </div>
           </div>
@@ -58,7 +65,7 @@ const Footer = (props) => {
                 <div className="footer_widget pe-md-3">
                   <h2 className="footer_info_title">Newsletter</h2>
                   <p>
-                    Sign up to Techco weekly newsletter to get the latest
+                    Sign up to Compumax LLC weekly newsletter to get the latest
                     updates.
                   </p>
                   <form className="footer_newslatter" onSubmit={SubmitHandler}>
@@ -103,15 +110,15 @@ const Footer = (props) => {
                         {service.title ? (
                           <Link
                             onClick={ClickHandler}
-                            href={"/service-single/[slug]"}
-                            as={`/service-single/${service.slug}`}
+                            href={'/'}
+                            as={`/`}
                           >
                             <span className="icon_list_text">
                               {service.title}
                             </span>
                           </Link>
                         ) : (
-                          ""
+                          ''
                         )}
                       </li>
                     ))}
@@ -123,34 +130,34 @@ const Footer = (props) => {
                   <h3 className="footer_info_title">Information</h3>
                   <ul className="icon_list unordered_list_block">
                     <li>
-                      <Link onClick={ClickHandler} href="/about">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">About Techco</span>
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/service">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">Investors</span>
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/contact">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">Contact</span>
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/about">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">
                           Affiliate Program
                         </span>
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/portfolio">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">Career</span>
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/pricing">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">Pricing Plan</span>
                       </Link>
                     </li>
@@ -162,32 +169,32 @@ const Footer = (props) => {
                   <h3 className="footer_info_title">Product</h3>
                   <ul className="icon_list unordered_list_block">
                     <li>
-                      <Link onClick={ClickHandler} href="/portfolio">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">Case Studies</span>
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/pricing">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">Our Pricing</span>
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/service">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">Features</span>
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/about">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">Overview</span>
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/blog">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">New Releases</span>
                       </Link>
                     </li>
                     <li>
-                      <Link onClick={ClickHandler} href="/pricing">
+                      <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">Solutions</span>
                       </Link>
                     </li>
@@ -204,7 +211,7 @@ const Footer = (props) => {
             Copyright © 2024 Compumax LLC, All rights reserved.
           </p>
           <p className="copyright_text m-0">
-            Developed by{" "}
+            Developed by{' '}
             <Link onClick={ClickHandler} href="/">
               Compumax LLC
             </Link>

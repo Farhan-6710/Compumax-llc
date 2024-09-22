@@ -11,7 +11,7 @@ const VideoModal = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="3SsK-cxlj_w"
+        videoId="3SsK-cxlj_"
         onClose={() => setOpen(false)}
       />
 

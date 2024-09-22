@@ -113,7 +113,7 @@
 // Footer Info Title
 .footer_info_title {
   color: #b6b8ca;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 20px;
   margin-bottom: 34px;
 }
@@ -202,7 +202,7 @@
     background-position: center center;
   }
   .diract_contact_links {
-    padding: 80px 0;
+    padding: 40px 0;
     border-bottom: 1px solid #1b2155;
   }
   .footer_bottom {
@@ -233,13 +233,15 @@
   }
 
   .footer_main_content {
-    padding: 100px 0;
+    padding: 70px 0;
   }
 
   .icon_list {
     > li {
       a {
         color: var(--bs-white);
+        font-weight: 300;
+        font-size: 14px;
       }
     }
   }

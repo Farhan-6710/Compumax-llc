@@ -5,7 +5,8 @@
   transition: var(--bs-transition);
   background-color: var(--bs-white);
   border-radius: var(--bs-border-radius-sm);
-  box-shadow: 0 1px 2px 0 rgba(174, 191, 210, 0.3);
+  border: 1px solid rgba(58, 58, 58, 0.137);
+  box-shadow: 0 2px 4px 1px rgba(174, 191, 210, 0.3);
   .portfolio_image_wrap {
     display: block;
     overflow: hidden;
@@ -40,9 +41,7 @@
   }
 
   .btn {
-    position: relative;
-    top: 20px;
-    left: -5px;
+    margin-top: 20px;
   }
 
   &:hover {

@@ -1,32 +1,31 @@
-import React from "react";
-import PartnerSection from "../PartnerSection";
-import sIcon1 from "/public/images/icons/icon_head.svg";
-import sIcon2 from "/public/images/icons/icon_check.svg";
-import sIcon3 from "/public/images/icons/icon_like.svg";
-import sIcon4 from "/public/images/icons/icon_dart_board.svg";
-import fimg from "/public/images/about/img-9.jpg";
-import Image from "next/image";
+import React from 'react';
+import sIcon1 from '/public/images/icons/icon_head.svg';
+import sIcon2 from '/public/images/icons/icon_check.svg';
+import sIcon3 from '/public/images/icons/icon_like.svg';
+import sIcon4 from '/public/images/icons/icon_dart_board.svg';
+import fimg from '/public/images/about/img-9.jpg';
+import Image from 'next/image';
 
 const FunFact = [
   {
-    title: "Advanced Frontend Frameworks",
-    subTitle: "Build dynamic and responsive web applications.",
+    title: 'Advanced Frontend Frameworks',
+    subTitle: 'Build dynamic and responsive web applications.',
     icon: sIcon1,
   },
   {
-    title: "Seamless Integration Tools",
-    subTitle: "Connect effortlessly with popular third-party applications.",
+    title: 'Seamless Integration Tools',
+    subTitle: 'Connect effortlessly with popular third-party applications.',
     icon: sIcon2,
   },
   {
-    title: "Enhanced Security Protocols",
-    subTitle: "Protect your data with cutting-edge security features.",
+    title: 'Enhanced Security Protocols',
+    subTitle: 'Protect your data with cutting-edge security features.',
     icon: sIcon3,
   },
   {
-    title: "User-Friendly Interface",
-    subTitle: "Experience software designed for simplicity and ease of use.",
-    symbol: "%",
+    title: 'User-Friendly Interface',
+    subTitle: 'Experience software designed for simplicity and ease of use.',
+    symbol: '%',
     icon: sIcon4,
   },
 ];
@@ -35,7 +34,7 @@ const FeaturesSection = (props) => {
   return (
     <section
       className="client_logo_section section_space pt-5 pb-5"
-      style={{ backgroundImage: `url(${"/images/shapes/bg_pattern_1.svg"})` }}
+      style={{ backgroundImage: `url(${'/images/shapes/bg_pattern_1.svg'})` }}
     >
       <div className="container pt-3">
         {/* <div className="section_space pt-0 pb-5">
@@ -55,7 +54,10 @@ const FeaturesSection = (props) => {
                 <div className="col-md-6" key={fitem}>
                   <div className="funfact_block">
                     <div className="funfact_icon">
-                      <Image src={funfact.icon} alt="Compumax - IT Solutions - features image" />
+                      <Image
+                        src={funfact.icon}
+                        alt="Compumax - IT Solutions - features image"
+                      />
                     </div>
                     <div className="funfact_content">
                       <div className="counter_value">

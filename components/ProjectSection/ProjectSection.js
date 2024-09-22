@@ -21,7 +21,7 @@ const ProjectSection = () => {
   };
 
   const displayedProjects =
-    Project && Project.length > 0 ? Project.slice(0, 5) : [];
+    Project && Project.length > 0 ? Project.slice(0, 9) : [];
 
   return (
     <section className="portfolio_section xb-hidden section_space pb-10 pt-0">
@@ -88,8 +88,8 @@ const ProjectSection = () => {
                   <Link
                     onClick={ClickHandler}
                     className="portfolio_image_wrap bg-light"
-                    href={"/portfolio_details/[slug]"}
-                    as={`/portfolio_details/${project.slug}`}
+                    href={"/"}
+                    as={`/`}
                   >
                     <Image
                       src={project.pImg}
@@ -103,8 +103,8 @@ const ProjectSection = () => {
                   <h3 className="portfolio_title">
                     <Link
                       onClick={ClickHandler}
-                      href={"/portfolio_details/[slug]"}
-                      as={`/portfolio_details/${project.slug}`}
+                      href={"/"}
+                      as={`/`}
                     >
                       {project.title}
                     </Link>
@@ -113,8 +113,8 @@ const ProjectSection = () => {
                     <li>
                       <Link
                         onClick={ClickHandler}
-                        href={"/portfolio_details/[slug]"}
-                        as={`/portfolio_details/${project.slug}`}
+                        href={"/"}
+                        as={`/`}
                       >
                         {project.sub}
                       </Link>
@@ -123,8 +123,8 @@ const ProjectSection = () => {
                   <Link
                     onClick={ClickHandler}
                     className="btn btn-outline-light"
-                    href={"/portfolio_details/[slug]"}
-                    as={`/portfolio_details/${project.slug}`}
+                    href={"/"}
+                    as={`/`}
                   >
                     <span className="btn_label" data-text="Explore">
                       Explore
@@ -144,7 +144,7 @@ const ProjectSection = () => {
           <Link
             onClick={ClickHandler}
             className="btn btn-primary"
-            href="/pricing"
+            href="/"
           >
             <span className="btn_label" data-text="All Works">
               All Works

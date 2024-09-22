@@ -33,7 +33,7 @@ const Hero = () => {
               </p>
               <ul className="btns_group unordered_list p-0 justify-content-start">
                 <li>
-                  <Link className="btn" href="/pricing">
+                  <Link className="btn" href="/">
                     <span className="btn_label" data-text="Get Started">
                       Get Started
                     </span>

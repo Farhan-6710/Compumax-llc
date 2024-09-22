@@ -31,8 +31,8 @@ const ServiceSection = (props) => {
                     <h3 className="service_title">
                       <Link
                         onClick={ClickHandler}
-                        href={"/service-single/[slug]"}
-                        as={`/service-single/${service.slug}`}
+                        href={"/"}
+                        as={`/`}
                       >
                         {service.title}
                       </Link>
@@ -43,8 +43,8 @@ const ServiceSection = (props) => {
                         <li>
                           <Link
                             onClick={ClickHandler}
-                            href={"/service-single/[slug]"}
-                            as={`/service-single/${service.slug}`}
+                            href={"/"}
+                            as={`/`}
                           >
                             {service.thumb1}
                           </Link>
@@ -52,8 +52,8 @@ const ServiceSection = (props) => {
                         <li>
                           <Link
                             onClick={ClickHandler}
-                            href={"/service-single/[slug]"}
-                            as={`/service-single/${service.slug}`}
+                            href={"/"}
+                            as={`/`}
                           >
                             {service.thumb2}
                           </Link>
@@ -61,8 +61,8 @@ const ServiceSection = (props) => {
                       </ul>
                       <Link
                         onClick={ClickHandler}
-                        href={"/service-single/[slug]"}
-                        as={`/service-single/${service.slug}`}
+                        href={"/"}
+                        as={`/`}
                         className="icon_block"
                       >
                         <i className="fa-regular fa-arrow-up-right"></i>
@@ -81,7 +81,7 @@ const ServiceSection = (props) => {
           <Link
             onClick={ClickHandler}
             className="btn btn-outline-light"
-            href="/service"
+            href="/"
           >
             <span className="btn_label" data-text="More Services">
               More Services
