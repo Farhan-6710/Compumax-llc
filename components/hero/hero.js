@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import heroImg from '/public/images/about/mobile-first-web-3.png';
+import heroImg from '/public/images/about/mobile-first-web-2.png';
 import icon from '/public/images/icons/icon_stars_trustpilot.svg';
 import avatar1 from '/public/images/about/avatar_1.jpg';
 import avatar2 from '/public/images/about/avatar_2.jpg';
