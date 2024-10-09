@@ -24,7 +24,7 @@ const ProjectSection = () => {
     Project && Project.length > 0 ? Project.slice(0, 9) : [];
 
   return (
-    <section className="portfolio_section xb-hidden section_space pb-10 pt-0">
+    <section className="portfolio_section xb-hidden">
       <div className="container">
         <div className="heading_block">
           <div className="row align-items-end">
@@ -77,7 +77,7 @@ const ProjectSection = () => {
             1025: {
               slidesPerView: 4,
               spaceBetween: 30,
-              centeredSlides: true
+              centeredSlides: false
             },
           }}
         >

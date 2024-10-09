@@ -22,7 +22,7 @@ const Services = [
   {
     Id: "1",
     sImg: sImg1,
-    title: "IT Management Services",
+    title: "SEO and Web Optimization",
     slug: "IT-Management-Services",
     thumb1: "Strategy",
     thumb2: "Consultation",
@@ -33,7 +33,7 @@ const Services = [
   {
     Id: "2",
     sImg: sImg2,
-    title: "Data Tracking and Security",
+    title: "Data Analysis and Data Visualization",
     slug: "Data-Tracking-and-Security",
     thumb1: "Management",
     thumb2: "Transfer",

@@ -7,6 +7,7 @@ import ServiceSection from "../components/ServiceSection/ServiceSection";
 import ProjectSection from "../components/ProjectSection/ProjectSection";
 import Footer from "../components/footer/Footer";
 import Scrollbar from "../components/scrollbar/scrollbar";
+import ContactFormComponent from "../components/ContactFrom/ContactFormComponent";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
           <FeaturesSection />
           <ServiceSection />
           <ProjectSection />
+          <ContactFormComponent />
           {/* <Testimonial />
                     <TeamSection /> */}
           {/* <BlogSection /> */}

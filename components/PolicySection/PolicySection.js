@@ -17,7 +17,7 @@ const Policy = [
     icon: sIcon2,
   },
   {
-    title: "reasonable Pricing",
+    title: "Reasonable Pricing",
     subTitle:
       "We believe in providing reasonable pricing that offers exceptional.",
     icon: sIcon3,

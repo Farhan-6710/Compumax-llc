@@ -1,11 +1,11 @@
-import React from "react";
-import Link from "next/link";
-import heroImg from '/public/images/about/img-11.jpg';
-import icon from "/public/images/icons/icon_stars_trustpilot.svg";
-import avatar1 from "/public/images/about/avatar_1.jpg";
-import avatar2 from "/public/images/about/avatar_2.jpg";
-import avatar3 from "/public/images/about/avatar_3.jpg";
-import Image from "next/image";
+import React from 'react';
+import Link from 'next/link';
+import heroImg from '/public/images/about/mobile-first-web-3.png';
+import icon from '/public/images/icons/icon_stars_trustpilot.svg';
+import avatar1 from '/public/images/about/avatar_1.jpg';
+import avatar2 from '/public/images/about/avatar_2.jpg';
+import avatar3 from '/public/images/about/avatar_3.jpg';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -16,17 +16,17 @@ const Hero = () => {
             <div
               className="it_solution_hero_content"
               style={{
-                backgroundImage: `url(${"/images/shapes/it_solution_hero_bg_1.svg"})`,
+                backgroundImage: `url(${'/images/shapes/it_solution_hero_bg_1.svg'})`,
               }}
             >
               <div className="heading_focus_text mb-0 d-inline-flex align-items-center">
-                👋 We Are{" "}
+                👋 We Are{' '}
                 <span className="badge bg-secondary text-white">
-                  {" "}
+                  {' '}
                   Compumax LLC
                 </span>
               </div>
-              <h1>Let's Grow your Business & IT Solution Technology</h1>
+              <h1>Empowering Your Business with Innovative IT Solutions</h1>
               <p>
                 In today's competitive business, the demand for efficient and
                 cost-effective IT solutions has never been more critical.
@@ -34,8 +34,8 @@ const Hero = () => {
               <ul className="btns_group unordered_list p-0 justify-content-start">
                 <li>
                   <Link className="btn" href="/">
-                    <span className="btn_label" data-text="Get Started">
-                      Get Started
+                    <span className="btn_label" data-text="Contact US">
+                      Contact US
                     </span>
                     <span className="btn_icon">
                       <i className="fa-solid fa-arrow-up-right"></i>
@@ -59,7 +59,11 @@ const Hero = () => {
           <div className="col-lg-5">
             <ul className="it_solution_hero_images unordered_list">
               <li className="h-98px">
-                <Image src={heroImg} alt="Techco - IT Solution - Hero" />
+                <Image
+                  src={heroImg}
+                  alt="Techco - IT Solution - Hero"
+                  className="border-radius-top-left"
+                />
               </li>
               <li>
                 <div className="worldwide_clients">
@@ -105,7 +109,7 @@ const Hero = () => {
                 <div
                   className="business_growth_content"
                   style={{
-                    backgroundImage: `url(${"/images/about/img-2.jpg"})`,
+                    backgroundImage: `url(${'/images/about/img-2.jpg'})`,
                   }}
                 >
                   <div className="business_growth">
@@ -140,8 +144,8 @@ const Hero = () => {
                           strokeDasharray="264"
                           strokeLinecap="round"
                           style={{
-                            transform: "rotate(-90deg)",
-                            transformOrigin: "50% 50%",
+                            transform: 'rotate(-90deg)',
+                            transformOrigin: '50% 50%',
                           }}
                           stroke="#fff"
                           data-angel="88"

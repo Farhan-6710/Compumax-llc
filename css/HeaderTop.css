@@ -103,3 +103,8 @@
         padding: 12px 60px;
     }
 }
+
+
+.border-radius-top-left {
+  border-top-left-radius: 20px;
+}

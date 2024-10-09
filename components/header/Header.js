@@ -68,7 +68,7 @@ const Header = (props) => {
                 <i className="fa-brands fa-facebook-f"></i>
               </a>
               <a href="#" className="social-icon">
-                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-x-twitter"></i>
               </a>
               <a href="#" className="social-icon">
                 <i className="fa-brands fa-instagram"></i>
