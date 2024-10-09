@@ -455,7 +455,7 @@
   transition: all 0.3s ease-in-out;
   left: 0;
   width: 100%;
-  top: 135px;
+  top: 145px;
   background: #fff;
 }
 
@@ -505,6 +505,13 @@
   top: 5px;
 }
 
+
+@media (max-width: 670px) {
+  .mobail-menu {
+    top: 167px;
+    /* Adjusted top positioning for smaller screens */
+  }
+}
 /* Media query for screens 533px wide and below */
 @media (max-width: 533px) {
   .mobail-menu {

@@ -7,65 +7,60 @@ import Link from "next/link";
 const menus = [
   {
     id: 1,
-    title: "Home",
-    link: "/",
+    title: 'Home',
+    link: '/',
   },
   {
     id: 2,
-    title: "About Us",
-    link: "/",
+    title: 'About Us',
+    link: '/',
   },
   {
     id: 3,
-    title: "Portfolio",
-    link: "/",
+    title: 'Portfolio',
+    link: '/',
   },
   {
     id: 4,
-    title: "Services",
-    link: "/",
+    title: 'Services',
+    link: '/',
     submenu: [
       {
         id: 5,
-        title: "Service 1",
-        link: "/",
+        title: 'SEO and Web Optimization',
+        link: '/',
       },
       {
         id: 6,
-        title: "Service 2",
-        link: "/",
+        title: 'Data Analysis and Data Visualization',
+        link: '/',
       },
       {
         id: 7,
-        title: "Service 3",
-        link: "/",
+        title: 'Website Development',
+        link: '/',
       },
       {
         id: 8,
-        title: "Service 4",
-        link: "/",
+        title: 'Modern Technology Solution',
+        link: '/',
       },
       {
         id: 9,
-        title: "Service 5",
-        link: "/",
-      },
-      {
-        id: 10,
-        title: "Service 6",
-        link: "/",
+        title: 'UI/UX Design Services',
+        link: '/',
       },
     ],
   },
   {
     id: 11,
-    title: "Blog",
-    link: "/",
+    title: 'Blog',
+    link: '/',
   },
   {
     id: 12,
-    title: "Contact",
-    link: "/",
+    title: 'Contact',
+    link: '/',
   },
 ];
 

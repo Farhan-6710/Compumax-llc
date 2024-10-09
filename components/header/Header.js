@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { MapPin } from 'lucide-react'; // Import the Lucide icon
-import logo from '/public/images/about/logo-img14.png';
+import logo from '/public/images/about/logo-img15.png';
 import styles from '../../styles/Home.module.css';
 import MobileMenu from '../MobileMenu/MobileMenu';
 import Image from 'next/image';
+import services from "../../api/service"
 
 const Header = (props) => {
   const [mobailActive, setMobailState] = useState(false);
@@ -157,36 +158,13 @@ const Header = (props) => {
                         className="dropdown-menu"
                         aria-labelledby="portfolio_submenu"
                       >
-                        <li>
-                          <Link onClick={ClickHandler} href="/">
-                            Services 1
-                          </Link>
-                        </li>
-                        <li>
-                          <Link onClick={ClickHandler} href="/">
-                            Services 2
-                          </Link>
-                        </li>
-                        <li>
-                          <Link onClick={ClickHandler} href="/">
-                            Services 3
-                          </Link>
-                        </li>
-                        <li>
-                          <Link onClick={ClickHandler} href="/">
-                            Services 4
-                          </Link>
-                        </li>
-                        <li>
-                          <Link onClick={ClickHandler} href="/">
-                            Services 5
-                          </Link>
-                        </li>
-                        <li>
-                          <Link onClick={ClickHandler} href="/">
-                            Services 6
-                          </Link>
-                        </li>
+                        {services.slice(0, 5).map((service) => (
+                          <li>
+                            <Link onClick={ClickHandler} href="/">
+                              {service.title}
+                            </Link>
+                          </li>
+                        ))}
                       </ul>
                     </li>
                   </ul>
