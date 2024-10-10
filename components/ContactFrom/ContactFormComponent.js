@@ -150,7 +150,7 @@ const ContactFormComponent = () => {
           <div className="col-lg-6 col-md-12 mt-4 mt-lg-0">
             <div className="map-container shadow rounded bg-white p-3">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093744!2d144.95373531561636!3d-37.8162797797517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1a2fbb7%3A0x5045675218ce6e0!2sVictoria!5e0!3m2!1sen!2sau!4v1614908443669!5m2!1sen!2sau"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2984.6393165217473!2d-73.8608286248367!3d41.57705018421076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd381394d7e207%3A0x283655de4ef5d2d8!2s341%20All%20Angels%20Hill%20Rd%2C%20Wappingers%20Falls%2C%20NY%2012590%2C%20USA!5e0!3m2!1sen!2sin!4v1728576838594!5m2!1sen!2sin"
                 width="100%"
                 height="535"
                 style={{ border: '0' }}
