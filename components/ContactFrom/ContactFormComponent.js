@@ -32,7 +32,7 @@ const ContactFormComponent = () => {
       message: data.message, // Message content
       from_email: data.email, // Sender's email
       subject: data.subject, // Subject of the email
-      to_email: 'jose@compumaxllc.com', // The email where you want to receive messages
+      to_email: 'info@compumaxllc.com', // The email where you want to receive messages
     };
 
     emailjs
