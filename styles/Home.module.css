@@ -125,6 +125,10 @@
   margin-left: 20px;
 }
 
+.bg-emerald-400 {
+  background-color: #34d399;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
