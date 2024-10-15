@@ -110,7 +110,7 @@ const Footer = (props) => {
                         {service.title ? (
                           <Link
                             onClick={ClickHandler}
-                            href={'/'}
+                            href={'/services'}
                             as={`/`}
                           >
                             <span className="icon_list_text">
@@ -131,7 +131,7 @@ const Footer = (props) => {
                   <ul className="icon_list unordered_list_block">
                     <li>
                       <Link onClick={ClickHandler} href="/">
-                        <span className="icon_list_text">About Techco</span>
+                        <span className="icon_list_text">About Compumax</span>
                       </Link>
                     </li>
                     <li>

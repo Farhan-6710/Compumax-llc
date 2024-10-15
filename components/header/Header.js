@@ -122,7 +122,7 @@ const Header = (props) => {
                       <Link
                         onClick={ClickHandler}
                         className="nav-link"
-                        href="/"
+                        href="/about"
                         id="home_submenu"
                         role="button"
                         aria-expanded="false"
@@ -134,7 +134,7 @@ const Header = (props) => {
                       <Link
                         onClick={ClickHandler}
                         className="nav-link"
-                        href="/"
+                        href="/portfolio"
                         id="home_submenu"
                         role="button"
                         aria-expanded="false"
@@ -146,7 +146,7 @@ const Header = (props) => {
                       <Link
                         onClick={ClickHandler}
                         className="nav-link"
-                        href="/"
+                        href="/services"
                         id="portfolio_submenu"
                         role="button"
                         data-bs-toggle="dropdown"
@@ -160,7 +160,7 @@ const Header = (props) => {
                       >
                         {services.slice(0, 5).map((service) => (
                           <li>
-                            <Link onClick={ClickHandler} href="/">
+                            <Link onClick={ClickHandler} href="/services">
                               {service.title}
                             </Link>
                           </li>
@@ -190,7 +190,7 @@ const Header = (props) => {
                   <Link
                     onClick={ClickHandler}
                     className="btn btn-outline-light"
-                    href="/"
+                    href="/contact-us"
                   >
                     <span className="btn_label" data-text="Contact Us">
                       Contact Us

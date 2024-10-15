@@ -108,3 +108,19 @@
 .border-radius-top-left {
   border-top-left-radius: 20px;
 }
+
+/* Define your media queries in a CSS file */
+.padding-top-180 {
+  padding-top: 200px !important; /* Default for larger screens */
+}
+
+/* For screens less than 576px */
+@media (max-width: 575.98px) {
+  .padding-top-180 {
+    padding-top: 180px !important;
+  }
+}
+
+.padding-bottom-40px {
+  padding-bottom: 40px;
+}

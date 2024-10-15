@@ -13,54 +13,49 @@ const menus = [
   {
     id: 2,
     title: 'About Us',
-    link: '/',
+    link: '/about',
   },
   {
     id: 3,
     title: 'Portfolio',
-    link: '/',
+    link: '/portfolio',
   },
   {
     id: 4,
     title: 'Services',
-    link: '/',
+    link: '/services',
     submenu: [
       {
         id: 5,
         title: 'SEO and Web Optimization',
-        link: '/',
+        link: '/services',
       },
       {
         id: 6,
         title: 'Data Analysis and Data Visualization',
-        link: '/',
+        link: '/services',
       },
       {
         id: 7,
         title: 'Website Development',
-        link: '/',
+        link: '/services',
       },
       {
         id: 8,
         title: 'Modern Technology Solution',
-        link: '/',
+        link: '/services',
       },
       {
         id: 9,
         title: 'UI/UX Design Services',
-        link: '/',
+        link: '/services',
       },
     ],
   },
   {
     id: 11,
-    title: 'Blog',
-    link: '/',
-  },
-  {
-    id: 12,
     title: 'Contact',
-    link: '/',
+    link: '/contact-us',
   },
 ];
 
