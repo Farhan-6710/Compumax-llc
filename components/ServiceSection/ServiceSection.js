@@ -14,7 +14,7 @@ const ServiceSection = (props) => {
         <div className="heading_block text-center">
           <div className="heading_focus_text">
             Our
-            <span className="badge bg-secondary text-white">Specialize</span>
+            <span className="badge bg-secondary text-white">Specialization</span>
           </div>
           <h2 className="heading_text mb-0">Featured Services</h2>
         </div>

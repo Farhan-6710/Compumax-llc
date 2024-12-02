@@ -5,7 +5,7 @@ import logo from '/public/images/about/logo-img15.png';
 import styles from '../../styles/Home.module.css';
 import MobileMenu from '../MobileMenu/MobileMenu';
 import Image from 'next/image';
-import services from "../../api/service"
+import services from '../../api/service';
 
 const Header = (props) => {
   const [mobailActive, setMobailState] = useState(false);
@@ -48,15 +48,17 @@ const Header = (props) => {
           <div className="header_top_left d-none d-xl-flex flex-lg-column align-items-start">
             <div className="address">
               <MapPin className="address-icon" /> {/* Use Lucide MapPin icon */}
-              <span>1234 Main St, Anytown, USA</span>
+              <span>
+                341 All Angels Hill Rd <br /> Wappingers Falls, NY 12590
+              </span>
             </div>
           </div>
 
           {/* Center Column: Subscription Text */}
           <div className="header_top_center flex-grow-1 text-center">
             <p className="m-0">
-              Subscribe us and receive <b>20% bonus</b> discount on checkout.{' '}
-              <Link onClick={ClickHandler} href="/">
+              We offer cutting-edge web development and design solutions.{' '}
+              <Link onClick={ClickHandler} href="/services">
                 <u>Learn more</u> <i className="fa-solid fa-angle-right"></i>
               </Link>
             </p>
@@ -91,6 +93,7 @@ const Header = (props) => {
               <div className="site_logo">
                 <Link onClick={ClickHandler} className="site_link" href="/">
                   <Image
+                    alt="Logo-Image"
                     src={logo}
                     width={502}
                     height={152}
@@ -159,7 +162,7 @@ const Header = (props) => {
                         aria-labelledby="portfolio_submenu"
                       >
                         {services.slice(0, 5).map((service) => (
-                          <li>
+                          <li key={service.Id}>
                             <Link onClick={ClickHandler} href="/services">
                               {service.title}
                             </Link>

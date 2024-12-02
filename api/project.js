@@ -17,7 +17,7 @@ import tImg5 from "/public/images/case/icon_python.svg";
 const Project = [
   {
     Id: '1',
-    pImg: pImg1,
+    pImg: pImg2,
     title: "Adam's Associates",
     slug: 'Manufacturing Dollies',
     sub: 'Manufacturing Dollies',
@@ -26,8 +26,8 @@ const Project = [
   },
   {
     Id: '2',
-    pImg: pImg2,
-    title: 'JNA Windows INC',
+    pImg: pImg3,
+    title: 'J&A Windows INC',
     slug: 'WINDOWS AND DOORS',
     sub: 'WINDOWS AND DOORS',
     description:
@@ -35,7 +35,7 @@ const Project = [
   },
   {
     Id: '3',
-    pImg: pImg3,
+    pImg: pImg4,
     title: 'M&M Thread Salon',
     slug: 'Spa Thread Salon',
     sub: 'Spa Thread Salon',
@@ -44,7 +44,7 @@ const Project = [
   },
   {
     Id: '4',
-    pImg: pImg4,
+    pImg: pImg5,
     title: 'Tuning Factory',
     slug: 'Tuning and Repairs',
     sub: 'Tuning and Repairs',
@@ -53,7 +53,7 @@ const Project = [
   },
   {
     Id: '5',
-    pImg: pImg5,
+    pImg: pImg1,
     title: 'Air Rescue USA',
     slug: 'Air Conditioning',
     sub: 'Air Conditioning',

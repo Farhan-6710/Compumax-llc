@@ -20,7 +20,6 @@ const Hero = () => {
               }}
             >
               <div className="heading_focus_text mb-0 d-inline-flex align-items-center">
-                👋 We Are{' '}
                 <span className="badge bg-secondary text-white">
                   {' '}
                   Compumax LLC
@@ -166,7 +165,7 @@ const Hero = () => {
                           <tspan className="business_growth-unit-58">%</tspan>
                         </text>
                       </svg>
-                      <p>get 88% of the best services and growth business</p>
+                      <p>get 88% of the best services and growth.</p>
                     </div>
                   </div>
                 </div>

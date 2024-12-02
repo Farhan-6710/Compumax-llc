@@ -30,8 +30,7 @@ const ProjectSection = () => {
           <div className="row align-items-end">
             <div className="col-lg-7">
               <div className="heading_focus_text">
-                <span className="badge bg-secondary text-white">Crafting</span>
-                Success With 😍 Project
+                <span className="badge bg-secondary text-white">Our Projects</span>
               </div>
               <h2 className="heading_text">Our Recent Best Works</h2>
               <p className="heading_description mb-0">

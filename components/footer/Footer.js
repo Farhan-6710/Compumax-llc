@@ -40,10 +40,7 @@ const Footer = (props) => {
               <div className="iconbox_content">
                 <h3 className="iconbox_title"> Call Us (USA)</h3>
                 <p className="mb-0">
-                  <a
-                    href="+12012981974"
-                    style={{ color: 'white'  }}
-                  >
+                  <a href="+12012981974" style={{ color: 'white' }}>
                     201 -298-1974
                   </a>
                 </p>
@@ -55,7 +52,11 @@ const Footer = (props) => {
               </div>
               <div className="iconbox_content">
                 <h3 className="iconbox_title">Our Office</h3>
-                <p className="mb-0">341 ALL ANGELS NY, 12590-4714</p>
+                <p className="mb-0">
+                  <span>
+                    341 All Angels Hill Rd <br /> Wappingers Falls, NY 12590
+                  </span>
+                </p>
               </div>
             </div>
           </div>
@@ -63,10 +64,10 @@ const Footer = (props) => {
             <div className="row justify-content-lg-between">
               <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="footer_widget pe-md-3">
-                  <h2 className="footer_info_title">Newsletter</h2>
+                  <h2 className="footer_info_title">About Us</h2>
                   <p>
-                    Sign up to Compumax LLC weekly newsletter to get the latest
-                    updates.
+                    We are a leading web development and design company,
+                    specializing in creating innovative digital solutions. 
                   </p>
                   <form className="footer_newslatter" onSubmit={SubmitHandler}>
                     <label htmlFor="footer_mail_input">
@@ -159,43 +160,6 @@ const Footer = (props) => {
                     <li>
                       <Link onClick={ClickHandler} href="/">
                         <span className="icon_list_text">Pricing Plan</span>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-2 col-md-6 col-sm-6">
-                <div className="footer_widget">
-                  <h3 className="footer_info_title">Product</h3>
-                  <ul className="icon_list unordered_list_block">
-                    <li>
-                      <Link onClick={ClickHandler} href="/">
-                        <span className="icon_list_text">Case Studies</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/">
-                        <span className="icon_list_text">Our Pricing</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/">
-                        <span className="icon_list_text">Features</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/">
-                        <span className="icon_list_text">Overview</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/">
-                        <span className="icon_list_text">New Releases</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link onClick={ClickHandler} href="/">
-                        <span className="icon_list_text">Solutions</span>
                       </Link>
                     </li>
                   </ul>
